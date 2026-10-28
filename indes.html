@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Calculador de Media academica</h1>
+    <form>
+        <label for="nome">Nome :</label>
+        <input type="text" id="nome" placeholder="Digite seu nome">
+
+        <br><br>
+
+        <label for="Nota1" >Nota 1:</label>
+        <input type="number" id="nota1" placeholder="coloque a primeira nota" step="any" required>
+   
+        <br><br>
+
+        <label for="Nota2">Nota 2:</label>
+        <input type="number" id="nota2" placeholder="coloque a segunda nota" step="any" required>
+    
+        <br><br>
+
+        <Button type="button" onclick="resultado()">Resultado</Button>
+
+    </form>
+
+    <p id="resultado"></p>
+</body>
+<script src="script.js"></script>
+</html>
