@@ -11,6 +11,12 @@ let n2 = Number(document.getElementById("nota2").value);
 let media = (n1 + n2) / 2;
 
  document.getElementById("resultado").innerHTML =
-                "A média de " + nome + " é: " + media.toFixed(2);
+                "A média de " + nome + " é: " + media;
+
+}
+
+function reset(){
+
+    document.getElementById("reset").innerHTML = "";
 
 }
